@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D256FBB20A27A3D00B4666E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D256FBA20A27A3D00B4666E /* AppDelegate.swift */; };
+		1D256FBD20A27A3D00B4666E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D256FBC20A27A3D00B4666E /* art.scnassets */; };
+		1D256FBF20A27A3D00B4666E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D256FBE20A27A3D00B4666E /* ViewController.swift */; };
+		1D256FC220A27A3D00B4666E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D256FC020A27A3D00B4666E /* Main.storyboard */; };
+		1D256FC420A27A3E00B4666E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D256FC320A27A3E00B4666E /* Assets.xcassets */; };
+		1D256FC720A27A3E00B4666E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D256FC520A27A3E00B4666E /* LaunchScreen.storyboard */; };
+		1D256FCF20A27AB800B4666E /* Hanoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D256FCE20A27AB800B4666E /* Hanoi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D256FB720A27A3D00B4666E /* HanoiRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanoiRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D256FBA20A27A3D00B4666E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D256FBC20A27A3D00B4666E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1D256FBE20A27A3D00B4666E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D256FC120A27A3D00B4666E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D256FC320A27A3E00B4666E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D256FC620A27A3E00B4666E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D256FC820A27A3E00B4666E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D256FCE20A27AB800B4666E /* Hanoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hanoi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D256FB420A27A3D00B4666E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D256FAE20A27A3D00B4666E = {
+			isa = PBXGroup;
+			children = (
+				1D256FB920A27A3D00B4666E /* HanoiRobot */,
+				1D256FB820A27A3D00B4666E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D256FB820A27A3D00B4666E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D256FB720A27A3D00B4666E /* HanoiRobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D256FB920A27A3D00B4666E /* HanoiRobot */ = {
+			isa = PBXGroup;
+			children = (
+				1D256FCE20A27AB800B4666E /* Hanoi.swift */,
+				1D256FBE20A27A3D00B4666E /* ViewController.swift */,
+				1D256FBA20A27A3D00B4666E /* AppDelegate.swift */,
+				1D256FBC20A27A3D00B4666E /* art.scnassets */,
+				1D256FC020A27A3D00B4666E /* Main.storyboard */,
+				1D256FC320A27A3E00B4666E /* Assets.xcassets */,
+				1D256FC520A27A3E00B4666E /* LaunchScreen.storyboard */,
+				1D256FC820A27A3E00B4666E /* Info.plist */,
+			);
+			path = HanoiRobot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D256FB620A27A3D00B4666E /* HanoiRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D256FCB20A27A3E00B4666E /* Build configuration list for PBXNativeTarget "HanoiRobot" */;
+			buildPhases = (
+				1D256FB320A27A3D00B4666E /* Sources */,
+				1D256FB420A27A3D00B4666E /* Frameworks */,
+				1D256FB520A27A3D00B4666E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanoiRobot;
+			productName = HanoiRobot;
+			productReference = 1D256FB720A27A3D00B4666E /* HanoiRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D256FAF20A27A3D00B4666E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Harry Kosalos";
+				TargetAttributes = {
+					1D256FB620A27A3D00B4666E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D256FB220A27A3D00B4666E /* Build configuration list for PBXProject "HanoiRobot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D256FAE20A27A3D00B4666E;
+			productRefGroup = 1D256FB820A27A3D00B4666E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D256FB620A27A3D00B4666E /* HanoiRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D256FB520A27A3D00B4666E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D256FBD20A27A3D00B4666E /* art.scnassets in Resources */,
+				1D256FC720A27A3E00B4666E /* LaunchScreen.storyboard in Resources */,
+				1D256FC420A27A3E00B4666E /* Assets.xcassets in Resources */,
+				1D256FC220A27A3D00B4666E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D256FB320A27A3D00B4666E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D256FCF20A27AB800B4666E /* Hanoi.swift in Sources */,
+				1D256FBF20A27A3D00B4666E /* ViewController.swift in Sources */,
+				1D256FBB20A27A3D00B4666E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D256FC020A27A3D00B4666E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D256FC120A27A3D00B4666E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D256FC520A27A3E00B4666E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D256FC620A27A3E00B4666E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D256FC920A27A3E00B4666E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D256FCA20A27A3E00B4666E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D256FCC20A27A3E00B4666E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				INFOPLIST_FILE = HanoiRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.com.HanoiRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D256FCD20A27A3E00B4666E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				INFOPLIST_FILE = HanoiRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.com.HanoiRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D256FB220A27A3D00B4666E /* Build configuration list for PBXProject "HanoiRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D256FC920A27A3E00B4666E /* Debug */,
+				1D256FCA20A27A3E00B4666E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D256FCB20A27A3E00B4666E /* Build configuration list for PBXNativeTarget "HanoiRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D256FCC20A27A3E00B4666E /* Debug */,
+				1D256FCD20A27A3E00B4666E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D256FAF20A27A3D00B4666E /* Project object */;
+}
